@@ -39,3 +39,34 @@ Git remote -v To see the remote name and associated URL
 
 git diff to see what are the changes made in each file line by line
 
+
+To set up CICD pipeline in heroku we need 3 information
+1. HEROKU_EMAIL = pushpapraketh@gmail.com
+2. HEROKU_API_KEY = f43334f8-6607-420a-b264-c5ac2bc44881
+3. HEROKU_APP_NAME = pvjmlcicd
+
+
+To Build docker image
+docker build -t image_name:tag_name  . (. indicates location of the docker file i.e current folder)
+
+Name of the image should be in lowercase
+
+To list the docker images
+docker images
+
+
+To run the docker image
+docker run -p 5000:5000 -e PORT=5000 image id
+-p to specify the port number 
+-e environment port 
+image id you will get from docker images 
+docker ps
+
+
+To check the docker running container
+docker ps
+
+To stop docker container
+docker stop container_ID
+
+Container_ID is different from image id you will get the container id form docker ps

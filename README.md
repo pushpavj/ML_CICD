@@ -37,4 +37,5 @@ Git push origin main - To provide the git hub URL and branch name where all thes
 
 Git remote -v To see the remote name and associated URL
 
+git diff to see what are the changes made in each file line by line
 

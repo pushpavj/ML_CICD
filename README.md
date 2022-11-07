@@ -41,8 +41,8 @@ git diff to see what are the changes made in each file line by line
 
 
 To set up CICD pipeline in heroku we need 3 information
-1. HEROKU_EMAIL = pushpapraketh@gmail.com
-2. HEROKU_API_KEY = f43334f8-6607-420a-b264-c5ac2bc44881
+1. HEROKU_EMAIL = @gmail.com
+2. HEROKU_API_KEY = 
 3. HEROKU_APP_NAME = pvjmlcicd
 
 
